@@ -1,6 +1,6 @@
-FROM alpine:3.7 as builder
+#FROM alpine:3.7 as builder
 
-RUN apk add --no-cache zip
+#RUN apk add --no-cache zip
 
 FROM docker.elastic.co/elasticsearch/elasticsearch:7.6.1
 MAINTAINER cgiraldo@gradiant.org
